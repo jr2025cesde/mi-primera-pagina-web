@@ -10,7 +10,7 @@ def home():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Javier RUA Tecnología - Inicio</title>
+        <title>Javier RÚA Tecnología - Inicio</title>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -25,11 +25,20 @@ def home():
                 color: #333;
             }
 
-            header, footer {
+            header {
                 background-color: #b81c1c;
                 color: white;
                 padding: 1rem;
                 text-align: center;
+                border-radius: 0 0 20px 20px;
+            }
+
+            footer {
+                background-color: #b81c1c;
+                color: white;
+                padding: 1rem;
+                text-align: center;
+                border-radius: 20px 20px 0 0;
             }
 
             main {
@@ -37,6 +46,7 @@ def home():
                 max-width: 900px;
                 margin: auto;
                 background-color: white;
+                box-shadow: 0 0 10px rgba(0,0,0,0.2);
             }
 
             h1 {
@@ -94,6 +104,7 @@ def home():
                 box-shadow: 0 0 10px rgba(0,0,0,0.1);
                 margin-top: 10px;
             }
+
             .boton {
                 background-color: #28a745;
                 color: white;
@@ -107,8 +118,8 @@ def home():
     </head>
     <body>
         <header>
-            <h1>¡Bienvenido a Javier RUA Moreno Tecnología!</h1>
-            <p>Tu tienda de confianza en productos tecnológicos al mejor precio</p>
+            <h1>¡Bienvenido a Javier RÚA Moreno Tecnología!</h1>
+            <p>Tu aliado de confianza en repuestos y tecnología, sin pagar de más.</p>
         </header>
         <main>
             <section>
@@ -177,7 +188,7 @@ def home():
             </section>
         </main>
         <footer>
-            <p>&copy; 2025 Javier RUA Tecnología</p>
+            <p>2025 Javier RÚA Moreno Tecnología</p>
         </footer>
     </body>
     </html>
